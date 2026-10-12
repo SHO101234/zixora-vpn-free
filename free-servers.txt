@@ -1,0 +1,12 @@
+# zixora Free VPN — free server list
+# --------------------------------------------------------
+# Put ONE share link per line below (no blank-line joining needed).
+# Supported: vless:// , vmess:// , trojan:// , ss:// , ssr:// , socks:// , http://
+#
+# Lines starting with # are ignored.
+#
+# The app fetches this file on first launch and re-checks it every 24 hours.
+# Just edit this file and push — no app rebuild needed.
+#
+# Example (commented out):
+# vless://uuid@example.com:443?encryption=none&security=tls&sni=example.com&type=ws&path=%2F#Example%20Server
