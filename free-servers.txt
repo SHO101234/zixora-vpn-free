@@ -1,12 +1,22 @@
 # zixora Free VPN — free server list
 # --------------------------------------------------------
-# Put ONE share link per line below (no blank-line joining needed).
-# Supported: vless:// , vmess:// , trojan:// , ss:// , ssr:// , socks:// , http://
-#
-# Lines starting with # are ignored.
-#
-# The app fetches this file on first launch and re-checks it every 24 hours.
-# Just edit this file and push — no app rebuild needed.
-#
-# Example (commented out):
-# vless://uuid@example.com:443?encryption=none&security=tls&sni=example.com&type=ws&path=%2F#Example%20Server
+# ONE share link per line. Lines starting with # are ignored.
+# Supported: vless:// vmess:// trojan:// ss://
+# The app fetches this file on first launch and every 24h.
+# Edit + push = servers update. No app rebuild needed.
+# Seeded 2026-10-12 from public free lists — replace dead ones anytime.
+vless://%40%40ZhilaVPN%40%40@46.225.255.204:39100/?type=tcp&encryption=none&flow=# By EbraSha 🛜
+vless://122b8a33-d923-48a6-8f1b-e721cf842864@chatgpt.com:2052?path=/?ed=2560&security=none&encryption=none&host=sub-89ytdd0zy-rubika.ir.google.com.www.speedtest.net.chatgpt.com.icloud.com.fiNeArTSnEt.COm.persianclouding.ir.&type=httpupgrade# By EbraSha 🧿
+vless://25844c02-a1fe-43ec-a6b9-44e3bf375b83@www.gov.ua:8880?security=none&type=ws&path=/pyip=ProxyIP.KR.CMLiussss.net&host=dark-breeze-a59a.494.workers.dev&packetEncoding=xudp# By EbraSha 🧪
+vless://318c935d-c195-41d3-99ad-9bbcfdab3386@de2.srv.vbuste.ru:443?encryption=none&security=reality&type=tcp&host=de2.srv.vbuste.ru&sni=de2.srv.vbuste.ru&flow=xtls-rprx-vision&fp=randomized&pbk=0-or5ogGhYbBgsVSrSC2Fhxyp2BN97Y9pqIdg61Qd08&sid=4be4110078ebed4a# By EbraSha 🦇
+vless://44ae52b9-76fc-444d-8e43-186b4384b80a@free-amsterdam-node-1.cloudwidecdn.com:443?encryption=none&flow=xtls-rprx-vision&type=raw&headerType=none&security=reality&fp=chrome&pbk=PryGoq51ilG0eLUPl9i0xCvmk1xpwkyFSr_tG4GNLlU&sni=www.apple.com&sid=1d86d17709852910# By EbraSha 🪬
+vless://54065f18-8686-4fe6-8c2f-17f520a09695@fastly.videobazi.com:443?security=tls&amp;encryption=none&amp;host=tv12.global.ssl.fastly.net&amp;type=ws&amp;sni=default.ssl.fastly.net# By EbraSha 🗿
+vless://62610fc6-8333-41f9-9258-08915e4343ab@polnbl1.top:443?security=reality&amp;encryption=none&amp;pbk=NtfIkZm7HKh3HTOhCy7m8QKTZu199sMvHvie89jt0GQ&amp;headerType=&amp;fp=chrome&amp;type=tcp&amp;flow=xtls-rprx-vision&amp;sni=polnbl1.top&amp;sid=0943d9c57956e02b# By EbraSha 🧨
+vless://7858128a-6b5e-4f86-9bff-52c1f1e6439d@sino.bestsellers1.site:2083?path=/&security=tls&alpn=h3,h2,http/1.1&encryption=none&fp=chrome&type=ws&allowInsecure=0&sni=sino.bestsellers1.site# By EbraSha 🐺
+vless://87964ea3-59f0-4cae-a546-0f6971c9efdb@fera2.povrak.ir:26988?security=none&encryption=mlkem768x25519plus.native.0rtt._G8fCKxCv0QnAioMqed4FNWE9jmHwtyx1WcjSvfA6lo&headerType=none&type=tcp# By EbraSha 🕶️
+vless://969dee57-c8a8-4639-866f-2831c672dcd1@vip2.firelinkvpn.shop:8443/?type=tcp&encryption=none&sni=play.google.com&fp=qq&security=reality&pbk=rfGoDoJdPrfhxrdL2neDnkGFuV3R4UjKJZPWbfXIvCg&sid=91b8# By EbraSha 🛡️
+vless://a8214a84-7522-4823-849b-2de0392c2284@dasas.amirh00sain.ir:443?encryption=none&security=tls&sni=dasas.amirh00sain.ir&fp=chrome&alpn=http/1.1&ech=cloudflare-ech.com+udp://1.1.1.1&type=ws&host=dasas.amirh00sain.ir&path=/px/3f5fb613/a8214a84-7522-4823-849b-2de0392c2284# By EbraSha 💻
+vless://ba9ba1d3-19c8-4792-9d3f-ddd2cdcc2e65@support.zoom.us:8443?security=tls&type=ws&path=%2Fxprolk-primeline&host=primelinelk.me&sni=primelinelk.me&fp=chrome&encryption=none# By EbraSha 🧲
+vless://ce4b2104-f1fe-4216-ad67-8c21869b9118@www.gameturk.bestvnxv.org:21710?mode=auto&path=/&security=reality&encryption=none&pbk=y1FXsWq-fLzk3Dle_2l_XSfpbBT-OtPBCkuQMMyN7hk&fp=chrome&type=xhttp&sni=cdn-apple.com&sid=a9c6792c83079ed3# By EbraSha ⌨️
+vless://e13cf851-b4fd-413b-8d49-146e6eb8e5d4@platform102.golnamakcert.top:80?path=%2Fplatform102&security=none&type=ws# By EbraSha 🐺
+vless://eeb6823c-b926-4ea2-866a-5542edd26e59@172.64.150.130:443/?type=ws&encryption=none&flow=&host=t1s1.rittbo.kdns.fr&path=%2F&security=tls&sni=t1s1.rittbo.kdns.fr# By EbraSha 🐉
