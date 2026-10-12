@@ -1,10 +1,15 @@
 # zixora Free VPN — free server list
 # --------------------------------------------------------
 # ONE share link per line. Lines starting with # are ignored.
-# Supported: vless:// vmess:// trojan:// ss://
 # The app fetches this file on first launch and every 24h.
 # Edit + push = servers update. No app rebuild needed.
-# Seeded 2026-10-12 from public free lists — replace dead ones anytime.
+#
+# --- Cloudflare WARP (recommended: free, unlimited, fast) ---
+wireguard://wEkj0%2BXDIWd6q62yAeGhPMdwiMmDcC4RT%2FLM%2FR6exH4%3D@engage.cloudflareclient.com:2408/?publickey=bmXOC%2BF1FxEMF9dyiK2H5%2F1SUtzH0JuVo51h2wPfgyo%3D&address=172.16.0.2%2F32&reserved=139%2C99%2C98&mtu=1280#WARP-Free-1
+wireguard://%2BB0BZKP80IXQZN5xnv7UvsCrVlxxwXAqQDMTtaxyzFo%3D@engage.cloudflareclient.com:2408/?publickey=bmXOC%2BF1FxEMF9dyiK2H5%2F1SUtzH0JuVo51h2wPfgyo%3D&address=172.16.0.2%2F32&reserved=220%2C82%2C105&mtu=1280#WARP-Free-2
+wireguard://uPQDQfN8F8nURQwfPi1AIBvo%2BNsihF3F%2B4GOqHYa%2BHs%3D@engage.cloudflareclient.com:2408/?publickey=bmXOC%2BF1FxEMF9dyiK2H5%2F1SUtzH0JuVo51h2wPfgyo%3D&address=172.16.0.2%2F32&reserved=111%2C198%2C129&mtu=1280#WARP-Free-3
+
+# --- Public VLESS nodes (may be slow/dead, kept as fallback) ---
 vless://%40%40ZhilaVPN%40%40@46.225.255.204:39100/?type=tcp&encryption=none&flow=# By EbraSha 🛜
 vless://122b8a33-d923-48a6-8f1b-e721cf842864@chatgpt.com:2052?path=/?ed=2560&security=none&encryption=none&host=sub-89ytdd0zy-rubika.ir.google.com.www.speedtest.net.chatgpt.com.icloud.com.fiNeArTSnEt.COm.persianclouding.ir.&type=httpupgrade# By EbraSha 🧿
 vless://25844c02-a1fe-43ec-a6b9-44e3bf375b83@www.gov.ua:8880?security=none&type=ws&path=/pyip=ProxyIP.KR.CMLiussss.net&host=dark-breeze-a59a.494.workers.dev&packetEncoding=xudp# By EbraSha 🧪
